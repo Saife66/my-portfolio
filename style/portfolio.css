@@ -8,6 +8,17 @@ body {
 .orange {
     color: #FD6E0A;
 }
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+    
+    padding: 30px 30px 0px 40px;
+    margin-bottom: 130px;
+
+
+}
 
 .btnprimary {
     border-radius: 5px;
@@ -18,10 +29,18 @@ body {
     color: white;
     font-size: 20px;
 }
+.btnprimar{
+    border-radius: 5px;
+    border: 1px solid ;
+    padding: 18px 35px;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+}
 
 /* nav section style */
-.btnnav{
-    
+.btnnav {
+
     width: 150px;
     height: 64px;
     font-weight: 700;
@@ -30,8 +49,9 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 nav>ul {
@@ -40,31 +60,249 @@ nav>ul {
 }
 
 nav li {
-        list-style: none;
-        margin-right: 51px;
-        color: #474747;
-        font-size: 20px;
-        font-weight: 400;
-    }
+    list-style: none;
+    margin-right: 51px;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 nav a {
-        text-decoration: none;
-    }
+    text-decoration: none;
+}
 
 nav h1 {
-        font-size: 45px;
-        font-weight: 800;
-    }
-
-    /* header */
-.header{
-    background-color: #FFF8F3;
+    font-size: 45px;
+    font-weight: 800;
 }
-.bannercontainer{
+
+/* header */
+
+
+.bannercontainer {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 30px 30px 0px 150px;
+
 }
-.img{
+
+.img {
     width: 500px;
+
+}
+.banone{
+    color: #474747;
+font-size: 55px;
+font-weight: 600;
+}
+.bantwo{
+    color: #181818;
+text-shadow: 0px 14px 14px 14px rgba(104, 97, 97, 0.25);
+font-size: 85px;
+font-weight: 700;
+}
+.bandes{
+    color: #757575;
+font-size: 18px;
+font-weight: 400;
+width: 585px;
+}
+.aboutcontainer {
+
+    width: 1140px;
+    height: 550px;
+
+    margin: auto;
+}
+
+.about {
+
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 31px 130px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+    color: #757575;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.abouttitlecontainer {
+    margin-bottom: 30px;
+}
+
+.abouttitle {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.aboutdescription {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.whatido {
+    margin: 80px 0px;
+}
+
+.idotitle {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.idodescription {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.experiencecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 24px;
+    margin: 180px 230px;
+}
+
+.experience {
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 27px;
+    width: 267px;
+    height: 307px;
+}
+
+.ex-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ex-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.summary {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.bottomup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.myeduandex {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.evryh3 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.everyh5 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.everydiscripion {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.uperfotsize {
+    width: 511px;
+}
+
+.hrstyle {
+    color:  #D1D1D1;
+}
+.buttonn{
+
+    border-radius: 5px;
+background: #FD6E0A;
+width: 200px;
+height: 64px;
+text-align: center;
+color:  #FFF;
+font-size: 20px;
+font-weight: 700;
+margin: 10px 900px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    background: #FFF8F3;
+}
+.left{
+width: 562px;
+}
+.socialicon{
+    display: flex;
+    
+}
+.socialicon>img{
+    margin-right:  25px;;
+}
+
+.leftdescription {
+    color: #474747;
+font-weight: 400;
+line-height: 28px;
+}
+input{
+    display: block;
+}
+
+.contract input[type="text"], .contract input[type="email"],
+textarea {
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+    
+}
+
+
+
+.footer-button{
+    width: 150px;
+height: 64px;
+border-radius: 5px;
+background: #FD6E0A;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+padding: 19px 39px;
 }
